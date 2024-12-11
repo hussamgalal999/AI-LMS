@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
             <h2>Hello!</h2>
-            <Button >Subscribe</Button>
+            <Button >Welcome!</Button>
 
             <UserButton></UserButton>
     </div>
