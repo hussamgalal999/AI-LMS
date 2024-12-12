@@ -21,7 +21,7 @@ export async function POST(req){
         createdBy:createdBy
 
 
-    }).returning({STUDY_MATERIAL_TABLE})
+    }).returning({resp:STUDY_MATERIAL_TABLE})
 
 
 
