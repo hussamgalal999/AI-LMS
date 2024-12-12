@@ -2,6 +2,7 @@
 import { Button } from '@/components/ui/button'
 import { LayoutDashboard, UserCircle } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
 
@@ -38,7 +39,9 @@ function SideBar() {
 
       </div>
       <div className = 'mt-10'> 
+        <Link href ={'/create'} className="w-full">
         <Button className = "w-full"> + Create New</Button>
+        </Link>
       </div>
       <div className = 'mt-5'> 
         {MenuList.map((menu, index)=>(
