@@ -1,4 +1,4 @@
-AI-Powered LMS SaaS Product
+AI-Powered LMS Product
 
 This repository contains a full-stack Learning Management System (LMS) SaaS application, built using cutting-edge technologies like Next.js, React, TailwindCSS, Inngest, Clerk, Neon, and Gemini. Designed to deliver an intelligent, seamless, and scalable e-learning experience, this project leverages AI to enhance the way users learn and manage educational content.
 
