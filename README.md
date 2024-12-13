@@ -1,6 +1,6 @@
 AI-Powered LMS Product
 
-This repository contains a full-stack Learning Management System (LMS) SaaS application, built using cutting-edge technologies like Next.js, React, TailwindCSS, Inngest, Clerk, Neon, and Gemini. Designed to deliver an intelligent, seamless, and scalable e-learning experience, this project leverages AI to enhance the way users learn and manage educational content.
+This repository contains a full-stack Learning Management System (LMS) application, built using cutting-edge technologies like Next.js, React, TailwindCSS, Inngest, Clerk, Neon, and Gemini. Designed to deliver an intelligent, seamless, and scalable e-learning experience, this project leverages AI to enhance the way users learn and manage educational content.
 
 Key Features:
 1. AI-Driven Insights: Personalize learning experiences with Gemini’s AI capabilities for adaptive content delivery and performance analytics.
