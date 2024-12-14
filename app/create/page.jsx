@@ -8,6 +8,7 @@ import { useUser } from '@clerk/nextjs';
 import axios from 'axios';
 import { Loader } from 'lucide-react';
 import { useRouter } from 'next/navigation';
+import { toast } from 'sonner';
 
 function Create() {
     const [step,setStep] = useState(0);
@@ -39,6 +40,7 @@ function Create() {
       })
         setLoading(false);
         router.replace('/dashboard')
+        toast("Your course is generating, please press the refresh button to see if the course has generated or not.")
         console.log(result.data.result.resp);
     }
     return (
