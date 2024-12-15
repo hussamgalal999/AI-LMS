@@ -15,12 +15,6 @@ function SideBar() {
             path:'/dashboard'
 
         }, 
-        // {
-        //     name: 'Upgrade', 
-        //     icon:Shield, 
-        //     path:'/'
-
-        // }
         {
             name:'Profile', 
             icon:UserCircle,

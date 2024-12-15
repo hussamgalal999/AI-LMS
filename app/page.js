@@ -12,11 +12,10 @@ export default function Home() {
       
       <Image src={'/knowledge.png'} alt="image" 
       width={80} height={80} className="absolute -rotate-12"/>
-      <Image src={'/coding_prep.jpg'} alt="image" 
-      width={80} height={80} className="absolute rotate-12 right-36"/>
+
       <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
       AI-Powered <span className='text-primary'>Exam Prep </span><br></br> Material Generator  </h1>
-      <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Your AI Exam Prep Companion: Effortless Study Material at Your Fingertips</p>
+      <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Your AI Exam Prep Companion</p>
      
       <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <a href="/dashboard" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary hover:bg-primary focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
